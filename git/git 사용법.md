@@ -55,7 +55,7 @@ ex. git push origin
 
 ## 9. git pull
 - git pull <저장소명> <브렌치명> <br>
-branch에서 수정한 파일을 가져오는것
+branch에서 수정한 파일을 가져오는 명령어
 
 
 
