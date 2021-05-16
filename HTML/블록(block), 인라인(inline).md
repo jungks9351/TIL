@@ -9,6 +9,8 @@
 - margin, padding 위,아래,좌,우 사용 가능하다.
 - 레이아웃
 
+<br>
+
 ## 인라인(inline)
 - SPAN, IMG
 - 필요한 만큼의 너비를 사용한다.
