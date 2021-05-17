@@ -14,3 +14,16 @@
 - [문자 콘텐츠](https://github.com/jungks9351/TIL/blob/main/HTML/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A1%20%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%90%E1%85%A6%E1%86%AB%E1%84%8E%E1%85%B3.md)
 
 - [인라인 텍스트](https://github.com/jungks9351/TIL/blob/main/HTML/%EC%9D%B8%EB%9D%BC%EC%9D%B8%20%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
+
+- [수정](https://github.com/jungks9351/TIL/blob/main/HTML/%EC%88%98%EC%A0%95.md)
+
+- [멀티미디어](https://github.com/jungks9351/TIL/blob/main/HTML/%EB%A9%80%ED%8B%B0%EB%AF%B8%EB%94%94%EC%96%B4.md)
+
+- [내장 콘텐츠](https://github.com/jungks9351/TIL/blob/main/HTML/%EB%82%B4%EC%9E%A5%20%EC%BD%98%ED%85%90%EC%B8%A0.md)
+
+- [스크립트](https://github.com/jungks9351/TIL/blob/main/HTML/%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.md)
+
+- [표 콘텐츠](https://github.com/jungks9351/TIL/blob/main/HTML/%ED%91%9C%20%EC%BD%98%ED%85%90%EC%B8%A0.md)
+
+- [양식](https://github.com/jungks9351/TIL/blob/main/HTML/%EC%96%91%EC%8B%9D.md)
+
