@@ -12,3 +12,5 @@
 - [콘텐츠 구분](https://github.com/jungks9351/TIL/blob/main/HTML/%EC%BD%98%ED%85%90%EC%B8%A0%20%EA%B5%AC%EB%B6%84.md)
 
 - [문자 콘텐츠](https://github.com/jungks9351/TIL/blob/main/HTML/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A1%20%E1%84%8F%E1%85%A9%E1%86%AB%E1%84%90%E1%85%A6%E1%86%AB%E1%84%8E%E1%85%B3.md)
+
+- [인라인 텍스트](https://github.com/jungks9351/TIL/blob/main/HTML/%EC%9D%B8%EB%9D%BC%EC%9D%B8%20%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
