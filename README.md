@@ -27,3 +27,4 @@
 
 - [양식](https://github.com/jungks9351/TIL/blob/main/HTML/%EC%96%91%EC%8B%9D.md)
 
+- [전역 속성](https://github.com/jungks9351/TIL/blob/main/HTML/%EC%A0%84%EC%97%AD%20%EC%86%8D%EC%84%B1.md)
