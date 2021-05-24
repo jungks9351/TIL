@@ -1,6 +1,5 @@
-# Today I Learn (TIL)
- 오늘 내가 공부한 것
-
+# HTML CSS SASS 공부하기
+HTML,CSS,SASS 공부
 ---
 
 ## HTML
