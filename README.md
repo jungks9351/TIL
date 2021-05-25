@@ -41,4 +41,5 @@ Today I Learn
 - [Parcel](https://github.com/jungks9351/TIL/blob/main/Sass/Parcel.md)
 - [데이터종류와 중첩](https://github.com/jungks9351/TIL/blob/main/Sass/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A2%85%EB%A5%98%EC%99%80%20%EC%A4%91%EC%B2%A9.md)
 - [변수](https://github.com/jungks9351/TIL/blob/main/Sass/%EB%B3%80%EC%88%98.md)
+- [가져오기](https://github.com/jungks9351/TIL/blob/main/Sass/%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0.md)
 
