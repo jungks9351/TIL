@@ -1,8 +1,8 @@
-# HTML CSS SASS 공부하기
-HTML,CSS,SASS 공부
+# TIL
+Today I Learn
 ---
 
-## HTML
+# HTML
 
 - [블록(block),인라인(inline)](https://github.com/jungks9351/TIL/blob/main/HTML/%EB%B8%94%EB%A1%9D(block)%2C%20%EC%9D%B8%EB%9D%BC%EC%9D%B8(inline).md)
 
