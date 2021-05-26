@@ -32,6 +32,7 @@ Today I Learn
 - [CSS 기본 문법](https://github.com/jungks9351/TIL/blob/main/CSS/CSS%20%EA%B8%B0%EB%B3%B8%20%EB%AC%B8%EB%B2%95.md)
 - [셀렉터](https://github.com/jungks9351/TIL/blob/main/CSS/%EC%85%80%EB%A0%89%ED%84%B0.md)
 - [CSS 프로퍼티 값](https://github.com/jungks9351/TIL/blob/main/CSS/CSS%20%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%20%EA%B0%92%EC%9D%98%20%EB%8B%A8%EC%9C%84.md)
+- [박스모델](https://github.com/jungks9351/TIL/blob/main/CSS/%EB%B0%95%EC%8A%A4%EB%AA%A8%EB%8D%B8.md)
 - [폰트와 텍스트](https://github.com/jungks9351/TIL/blob/main/CSS/%ED%8F%B0%ED%8A%B8%EC%99%80%20%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
 - [float](https://github.com/jungks9351/TIL/blob/main/CSS/float.md)
 - [flex](https://github.com/jungks9351/TIL/blob/main/CSS/flex.md)
