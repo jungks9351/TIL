@@ -22,5 +22,22 @@ overflow : hidden; 은 자식 요소가 부모 요소의 영역보다 클 경우
 ## float 선언된 자식 요소를 부모 요소의 높이가 정상 반영되지 않는 문제
 - 부모 요소에 overflow : hidden; 선언하기
 - 가상요소 선택자(::after) 사용
+```html
+<div class="parent clearfix">
+    <div class="child"></div>
+    <div class="child"></div>
+</div>
+```
+```css
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: blcok;
+}
+.child {
+    float: left;
+}
+```
+
 - float 프로퍼티 대신 display : inline-block; 선언
 - 부모 요소에 font-size : 0; 선언 두 요소 사이에 정의하지 않은 공백 제거
