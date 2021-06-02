@@ -15,7 +15,7 @@ transition-timing-function|트랜지션 효과를 위한 수치 함수를 지정
 transition-delay|프로퍼티가 변화한 시점과 트랜지션이 실제로 시작하는 사이에 대기하는 시간을 초 단위(s) 또는 밀리 초 단위(ms)로 지정한다.|0s
 transition|모든 트랜지션 프로퍼티를 한번에 지정한다. shorthand syntax
 
-## 1, transition-property
+## transition-property
 
 트랜지션의 대상이 되는 CSS 프로퍼티 명을 지정한다. 복수의 프로퍼티를 지정하는 경우 ,쉼표로 구분한다.
 
@@ -54,7 +54,7 @@ font-size font-family font-weight
 clear white-space
 ```
 
-## 2, tansition-duration
+## tansition-duration
 
 트랜지션에 일어나는 지속시간을 지정한다. 지정하지 않을 경우 0s가 적용되어 아떠한 트랜지션 효과도 볼 수 없다.
 
