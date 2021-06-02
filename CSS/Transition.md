@@ -97,4 +97,38 @@ div {
 - linear
 
 시작부터 종료까지 등속 운동을 한다.
+
 ![linear](https://poiemaweb.com/img/cubic-bezier-linear.png)
+
+- ease-in
+
+느리게 시작한 후 일정한 속도에 다다르면 그 상태로 등속 운동한다.
+
+![ease-in](https://poiemaweb.com/img/cubic-bezier-ease-in.png)
+
+- ease-out
+
+일정한 속도의 등속으로 시작해서 점점 느려지면서 종료한다.
+
+![ease-out](https://poiemaweb.com/img/cubic-bezier-ease-out.png)
+
+- ease-in-out
+
+ease와 비슷하게 느리게 시작하여 느려지면서 종료한다.
+
+![ease-in-out](https://poiemaweb.com/img/cubic-bezier-ease-in-out.png)
+
+## transition-delay
+
+프로터피가 변화한 시점과 트랜지션이 실제로 시작하는 사이에 대기하는 시간은 초 단위(s) 또는 밀리 초 단위(ms)로 지정한다.
+
+transtion-delay 로 대기 시간을 지정하여 프로퍼티 값이 변화하여도 즉시 트랜지션이 실행되지 않고, 일정 시간 대기한 후 트랜지션이 실행되도록한다.
+
+## transition
+
+```
+transition: property duration function delay;
+
+//기본값: all 0 ease 0
+
+```
