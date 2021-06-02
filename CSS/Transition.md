@@ -53,3 +53,48 @@ top left right bottom
 font-size font-family font-weight
 clear white-space
 ```
+
+## 2, tansition-duration
+
+트랜지션에 일어나는 지속시간을 지정한다. 지정하지 않을 경우 0s가 적용되어 아떠한 트랜지션 효과도 볼 수 없다.
+
+tranistion-duration 프로퍼티값은 transition-property 프로퍼티 값과 1:1 대응한다.
+```css
+div {
+    transition-property: width, height;
+    transition-duration: 2s, 4s;
+}
+/* shorthand syntax */
+div {
+    transition: width 2s, height 4s;
+}
+
+/* property 와 duration 갯수가 다를 때 */
+div {
+    transition-property: top, right, left, bottom;
+    transition-duration: 2s, 1s; 
+}
+
+// 아래의 값과 동일하다.
+
+div {   
+    transition: top 2s, right 1s, left 2s, bottom 1s;
+}
+```
+
+## transition-timing-function
+
+트랜지션 효과의 변화 흐름, 시간에 따른 변화 속도와 같은 일종의 변화의 리듬을 지정한다.
+
+대부분의 타이밍 함수는 큐빅 베이지어(cubic bezier)를 정의하는 네점에 의해 정의 되므로 상응하는 함수의 그래프로 제공해서 명시할 수 있다. transition-timing-function 프로퍼티 값으로 미리 정해둔 5개의 키워드가 제공된다. 기본값은 ease이다.
+
+- ease
+
+기본값, 느리게 시작하여 점점 빨라졌다가 느려지면서 종료한다.
+
+![ease](https://poiemaweb.com/img/cubic-bezier-ease.png)
+
+- linear
+
+시작부터 종료까지 등속 운동을 한다.
+![linear](https://poiemaweb.com/img/cubic-bezier-linear.png)
