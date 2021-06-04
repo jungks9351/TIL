@@ -28,7 +28,7 @@ Mixin 은 두가지만 기억하면 된다.
     color: red;
 
     &::after {
-        cotente: "!!";
+        cotent: "!!";
     }
 
     span.icon {
@@ -65,7 +65,7 @@ h1 {
 }
 
 h1::after {
-  cotente: "!!";
+  content: "!!";
 }
 
 h1 span.icon {
