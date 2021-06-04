@@ -29,6 +29,8 @@ Today I Learn
     - [border](https://github.com/jungks9351/TIL/blob/main/CSS/border.md)
     - [box-sizing](https://github.com/jungks9351/TIL/blob/main/CSS/box-sizing.md)
 - [폰트와 텍스트](https://github.com/jungks9351/TIL/blob/main/CSS/%ED%8F%B0%ED%8A%B8%EC%99%80%20%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
+- [transition](https://github.com/jungks9351/TIL/blob/main/CSS/Transition.md)
+- [transform](https://github.com/jungks9351/TIL/blob/main/CSS/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%BC.md)
 - [float](https://github.com/jungks9351/TIL/blob/main/CSS/float.md)
 - [flex](https://github.com/jungks9351/TIL/blob/main/CSS/flex.md)
 - [grid](https://github.com/jungks9351/TIL/blob/main/CSS/Grid.md)
