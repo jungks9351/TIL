@@ -2,7 +2,7 @@
 Today I Learn
 ---
 
-# HTML
+# HTML (Hyper Text Markup Language)
 
 - [블록(block),인라인(inline)](https://github.com/jungks9351/TIL/blob/main/HTML/%EB%B8%94%EB%A1%9D(block)%2C%20%EC%9D%B8%EB%9D%BC%EC%9D%B8(inline).md)
 - [HTML 주요범위 & 메타데이터](https://github.com/jungks9351/TIL/blob/main/HTML/1.%20HTML%20%EC%A3%BC%EC%9A%94%EB%B2%94%EC%9C%84%20%26%20%EB%A9%94%ED%83%80%EB%8D%B0%EC%9D%B4%ED%84%B0.md)
@@ -17,7 +17,7 @@ Today I Learn
 - [양식](https://github.com/jungks9351/TIL/blob/main/HTML/10.%20%EC%96%91%EC%8B%9D.md)
 - [전역 속성](https://github.com/jungks9351/TIL/blob/main/HTML/11.%20%EC%A0%84%EC%97%AD%20%EC%86%8D%EC%84%B1.md)
 
-# CSS
+# CSS (Cascading Style Sheets)
 - [CSS 기본 문법](https://github.com/jungks9351/TIL/blob/main/CSS/CSS%20%EA%B8%B0%EB%B3%B8%20%EB%AC%B8%EB%B2%95.md)
 - [셀렉터](https://github.com/jungks9351/TIL/blob/main/CSS/%EC%85%80%EB%A0%89%ED%84%B0.md)
     - [가상 클래스 셀렉터](https://github.com/jungks9351/TIL/blob/main/CSS/%EA%B0%80%EC%83%81%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%85%80%EB%A0%89%ED%84%B0.md)
