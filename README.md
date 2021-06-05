@@ -50,3 +50,7 @@ Today I Learn
     - [@for](https://github.com/jungks9351/TIL/blob/main/Sass/%40for.md)
     - [@each](https://github.com/jungks9351/TIL/blob/main/Sass/%40each.md)
     - [while](https://github.com/jungks9351/TIL/blob/main/Sass/%40while.md)
+
+# JavaScript
+
+- [변수](https://github.com/jungks9351/TIL/blob/main/JS/%EB%B3%80%EC%88%98.md)
