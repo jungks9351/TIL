@@ -64,3 +64,4 @@ Today I Learn
     - [객체 생성 방법](https://github.com/jungks9351/TIL/blob/main/JS/%EA%B0%9D%EC%B2%B4%20%EC%83%9D%EC%84%B1%20%EB%B0%A9%EB%B2%95.md)
     - [객체 프로퍼티](https://github.com/jungks9351/TIL/blob/main/JS/%EA%B0%9D%EC%B2%B4%20%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%20%EC%A0%91%EA%B7%BC.md)
 - [함수](https://github.com/jungks9351/TIL/blob/main/JS/%ED%95%A8%EC%88%98.md)
+- [디스트럭처링 할당](https://github.com/jungks9351/TIL/blob/main/JS/destructuringAssignment/%EB%94%94%EC%8A%A4%ED%8A%B8%EB%9F%AD%EC%B2%98%EB%A7%81%20%ED%95%A0%EB%8B%B9.md)
