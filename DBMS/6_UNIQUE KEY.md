@@ -10,15 +10,18 @@ PK는 테이블에 하나만 존재해야 하지만 UK는 여러개가 존재 �
 NULL을 다른 값으로 본다 (허용)
 
 ```sql
+-- 테이블 생성
 CREATE TABLE movie_mast
 (
 	movie_name varchar2(100),
 	open_date varchar2(8)
 );
 
+-- PRIMARY KEY
 ALTER TABLE movie_mast ADD CONSTRAINT movie_mast_pk
 PRIMARY KEY(movie_name);
 
+-- UNIQUE KEY
 ALTER TABLE movie_mast ADD CONSTRAINT movie_mast_u1
 UNIQUE(open_date);
 
