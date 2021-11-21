@@ -2,6 +2,8 @@
 
 ## Today I Learn
 
+
+
 # HTML (Hyper Text Markup Language)
 
 - [블록(block),인라인(inline)](<https://github.com/jungks9351/TIL/blob/main/HTML/%EB%B8%94%EB%A1%9D(block)%2C%20%EC%9D%B8%EB%9D%BC%EC%9D%B8(inline).md>)
@@ -51,19 +53,3 @@
   - [@for](https://github.com/jungks9351/TIL/blob/main/Sass/%40for.md)
   - [@each](https://github.com/jungks9351/TIL/blob/main/Sass/%40each.md)
   - [while](https://github.com/jungks9351/TIL/blob/main/Sass/%40while.md)
-
-# JavaScript
-
-- 1. [변수](https://github.com/jungks9351/TIL/blob/main/JS/1_%EB%B3%80%EC%88%98.md)
-- 2. [데이터타입](https://github.com/jungks9351/TIL/blob/main/JS/2_%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%83%80%EC%9E%85.md)
-- 3. [타입 변환](https://github.com/jungks9351/TIL/blob/main/JS/3_%ED%83%80%EC%9E%85%20%EB%B3%80%ED%99%98.md)
-- 4. [단축평가](https://github.com/jungks9351/TIL/blob/main/JS/4_%EB%8B%A8%EC%B6%95%ED%8F%89%EA%B0%80.md)
-- 5. [연산자](https://github.com/jungks9351/TIL/blob/main/JS/5_%EC%97%B0%EC%82%B0%EC%9E%90.md)
-- 6. [제어문](https://github.com/jungks9351/TIL/blob/main/JS/6_%EC%A0%9C%EC%96%B4%EB%AC%B8.md)
-- 7.1. [배열](https://github.com/jungks9351/TIL/blob/main/JS/7_%EB%B0%B0%EC%97%B4/1_%EB%B0%B0%EC%97%B4.md)
-  - 7.2. [배열 생성 방법](https://github.com/jungks9351/TIL/blob/main/JS/7_%EB%B0%B0%EC%97%B4/2_%EB%B0%B0%EC%97%B4%20%EC%83%9D%EC%84%B1%20%EB%B0%A9%EB%B2%95.md)
-  - 7.3. [배열고차함수](https://github.com/jungks9351/TIL/blob/main/JS/7_%EB%B0%B0%EC%97%B4/3_%EB%B0%B0%EC%97%B4%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.md)
-- 8.1. [객체](https://github.com/jungks9351/TIL/blob/main/JS/8_%EA%B0%9D%EC%B2%B4/1_%EA%B0%9D%EC%B2%B4.md)
-  - 8.2. [객체 생성 방법](https://github.com/jungks9351/TIL/blob/main/JS/8_%EA%B0%9D%EC%B2%B4/2_%EA%B0%9D%EC%B2%B4%20%EC%83%9D%EC%84%B1%20%EB%B0%A9%EB%B2%95.md)
-  - 8.3. [객체 프로퍼티 접근](https://github.com/jungks9351/TIL/blob/main/JS/8_%EA%B0%9D%EC%B2%B4/3_%EA%B0%9D%EC%B2%B4%20%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%20%EC%A0%91%EA%B7%BC.md)
-- 9. [프로토타입](https://github.com/jungks9351/TIL/blob/main/JS/9_%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85.md)
