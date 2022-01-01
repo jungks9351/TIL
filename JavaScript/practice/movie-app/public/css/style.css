@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.movie-list {
+  width: 1000px;
+  list-style: none;
+  display: flex;
+  /* align-items: center; */
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.movie-item {
+  width: 200px;
+  height: 400px;
+}
+
+.movie-poster {
+  width: 100%;
+}
+
+.movie-desc {
+  width: 200px;
+  height: 100px;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
