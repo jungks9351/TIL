@@ -18,13 +18,25 @@ header {
   align-items: center;
 }
 main {
+  width: 1000px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
 }
+.movie-list-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 85px;
+}
+.movie-list-nav > button:first-child {
+  margin-right: 20px;
+}
 
+.selected-btn {
+  border-bottom: 2px solid #f00;
+}
 .movie-list {
-  width: 1000px;
+  /* width: 1000px; */
   padding: 0;
   list-style: none;
   display: flex;
@@ -40,16 +52,27 @@ main {
 }
 
 .movie-poster {
-  width: 100%;
+  width: 200px;
+  height: 150px;
+}
+
+.movie-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .movie-desc {
-  width: 200px;
-  height: 100px;
+  /* width: 200px; */
+  height: 60px;
   line-height: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: wrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  word-wrap: break-word;
 }
 
 .page-select-box {

@@ -1,29 +1,60 @@
 window.onload = () => {
   $moiveList.innerHTML = "";
-  getPopularMovies();
+
+  getMovies();
 };
 
 // DOM
+
+const $movieListNav = document.getElementById("movieListNav");
 
 const $moiveList = document.getElementById("movieList");
 const $nextBtn = document.getElementById("nextBtn");
 const $prevBtn = document.getElementById("prevBtn");
 const $pageNumbers = document.getElementById("pageNumbers");
 
+const $firstPageBtn = document.getElementById("firstPageBtn");
+const $lastPageBtn = document.getElementById("lastPageBtn");
+
 const url = new URLSearchParams(location.search);
 
 const lastPage = 20;
 
-const getPopularMovies = async () => {
+$movieListNav.onclick = (e) => {
+  $moiveList.innerHTML = "";
+
+  const movieListSelectBtns = document.querySelectorAll(
+    "#movieListNav > button"
+  );
+  [...movieListSelectBtns].map((btn) => {
+    btn.classList.toggle("selected-btn");
+  });
+  const id = e.target.id;
+  localStorage.setItem("movieFilter", id);
+  getMovies();
+};
+
+const getMovies = async () => {
   const pageNumber = url.get("page");
 
-  const res = await fetch(
-    `https://api.themoviedb.org/3/movie/popular?api_key=b1f42a273f605f2b79d537a4c1929770&language=ko-KR&page=${pageNumber}`
+  const movieFilter = localStorage.getItem("movieFilter");
+
+  const $selectedBtn = document.getElementById(
+    movieFilter ? movieFilter : "popular"
   );
 
-  const { results: popularMovies } = await res.json();
+  $selectedBtn.classList.add("selected-btn");
+  console.log(movieFilter);
 
-  popularMovies.map((movie) => {
+  const res = await fetch(
+    `https://api.themoviedb.org/3/movie/${
+      !movieFilter ? "popular" : movieFilter
+    }?api_key=b1f42a273f605f2b79d537a4c1929770&language=ko-KR&page=${pageNumber}`
+  );
+
+  const { results: movies } = await res.json();
+
+  movies.map((movie) => {
     const {
       backdrop_path: img_url,
       title,
@@ -32,10 +63,16 @@ const getPopularMovies = async () => {
     } = movie;
 
     const temp_html = `<li class="movie-item">
-      <img class="movie-poster" src=https://image.tmdb.org/t/p/w500${img_url} alt="image" />
-      <p class="movie-title">제목 : ${title}</p>
-      <p class="movie-desc">설명 : ${description}</p>
-      <p class="movie-rate">평점 : ${rate}</p>
+      <img class="movie-poster" src=${
+        img_url
+          ? `https://image.tmdb.org/t/p/w500/${img_url}`
+          : "./images/notImageAvailable.jpeg"
+      } alt="image" />
+      <p class="movie-title">${title}</p>
+      <p class="movie-desc">${
+        description ? description : "설명이 없습니다."
+      }</p>
+      <p class="movie-rate">⭐️ ${rate}</p>
     </li>`;
 
     $moiveList.innerHTML += temp_html;
@@ -51,7 +88,7 @@ $nextBtn.onclick = () => {
   if (pageNumber >= lastPage) return;
   location.assign(`?page=${pageNumber + 1}`);
 
-  getPopularMovies();
+  getMovies();
 };
 
 $prevBtn.onclick = () => {
@@ -61,7 +98,7 @@ $prevBtn.onclick = () => {
 
   location.assign(`?page=${pageNumber - 1}`);
 
-  getPopularMovies();
+  getMovies();
 };
 
 //page number 그리기
@@ -71,7 +108,6 @@ const changePageNumber = (pageNumber) => {
   pageNumber = pageNumber === null ? 1 : +pageNumber;
   if (pageNumber < 16) {
     for (let i = pageNumber; i < pageNumber + 5; i++) {
-      console.log(i);
       $pageNumbers.innerHTML += `<span class="page-number">${i}</span>`;
     }
   } else {
@@ -79,4 +115,24 @@ const changePageNumber = (pageNumber) => {
       $pageNumbers.innerHTML += `<span class="page-number">${j}</span>`;
     }
   }
+};
+
+$firstPageBtn.onclick = () => {
+  const pageNumber = 1;
+  location.assign(`?page=${pageNumber}`);
+  getMovies();
+};
+
+$lastPageBtn.onclick = () => {
+  const pageNumber = lastPage;
+  location.assign(`?page=${pageNumber}`);
+  getMovies();
+};
+
+$pageNumbers.onclick = (e) => {
+  const pageNumber = +e.target.textContent;
+
+  location.assign(`?page=${pageNumber}`);
+
+  getMovies();
 };

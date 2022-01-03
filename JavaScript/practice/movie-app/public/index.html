@@ -17,12 +17,16 @@
 
       <!-- main -->
       <main>
+        <nav id="movieListNav" class="movie-list-nav">
+          <button id="popular">인기순</button>
+          <button id="top_rated">평점순</button>
+        </nav>
         <div class="movie-box">
           <ul id="movieList" class="movie-list"></ul>
         </div>
 
         <div class="page-select-box">
-          <button><<</button>
+          <button id="firstPageBtn"><<</button>
           <button id="prevBtn"><</button>
           <div id="pageNumbers" class="page-numbers">
             <!-- <span class="page-number">1</span>
@@ -32,7 +36,7 @@
             <span class="page-number">5</span> -->
           </div>
           <button id="nextBtn">></button>
-          <button>>></button>
+          <button id="lastPageBtn">>></button>
         </div>
       </main>
     </div>
