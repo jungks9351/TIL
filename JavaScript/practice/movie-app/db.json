@@ -1,3 +1,43 @@
 {
-  "users": [{ "name": "jungjin" }]
+  "users": [
+    {
+      "id": 1,
+      "userId": "jungjin",
+      "userPw": "1234"
+    },
+    {
+      "userId": "dongchan",
+      "userPw": "1234",
+      "id": 2
+    },
+    {
+      "userId": "dongchan2",
+      "userPw": "1234",
+      "id": 3
+    }
+  ],
+  "likes": [
+    {
+      "movie": {
+        "movieId": 634649,
+        "title": "스파이더맨: 노 웨이 홈",
+        "imgUrl": "/1Rr5SrvHxMXHu5RjKpaMba8VTzi.jpg",
+        "desc": "정체가 탄로난 스파이더맨 피터 파커가 시간을 되돌리기 위해 닥터 스트레인지의 도움을 받던 중 뜻하지 않게 멀티버스가 열리게 되고, 이를 통해 자신의 숙적 닥터 옥토퍼스가 나타나며 사상 최악의 위기를 맞게 되는데...",
+        "rate": 8.4
+      },
+      "userId": "jungjin",
+      "id": 1
+    },
+    {
+      "movie": {
+        "movieId": 460458,
+        "title": "레지던트 이블: 라쿤시티",
+        "imgUrl": "/o76ZDm8PS9791XiuieNB93UZcRV.jpg",
+        "desc": "거대 제약회사 '엄브렐라'가 철수한 후 폐허가 된 '라쿤시티'. 어릴 적 끔찍한 사건을 겪고 고향을 떠났던 클레어가 돌아온 그날 밤, 라쿤시티는 좀비 바이러스에 감염되어 순식간에 지옥으로 돌변한다. 남은 시간은 7시간, 죽음의 도시를 탈출하라!",
+        "rate": 6.1
+      },
+      "userId": "jungjin",
+      "id": 2
+    }
+  ]
 }
