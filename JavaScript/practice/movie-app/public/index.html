@@ -9,15 +9,32 @@
     <title>Movies</title>
   </head>
   <body>
-    <h2>Movies</h2>
-    <div class="movie-box">
-      <ul id="movieList" class="movie-list"></ul>
-    </div>
+    <div class="wrapper">
+      <!-- header -->
+      <header>
+        <h2>Movie List</h2>
+      </header>
 
-    <div class="btn-box">
-      <button><</button>
+      <!-- main -->
+      <main>
+        <div class="movie-box">
+          <ul id="movieList" class="movie-list"></ul>
+        </div>
 
-      <button id="nextBtn">></button>
+        <div class="page-select-box">
+          <button><<</button>
+          <button id="prevBtn"><</button>
+          <div id="pageNumbers" class="page-numbers">
+            <!-- <span class="page-number">1</span>
+            <span class="page-number">2</span>
+            <span class="page-number">3</span>
+            <span class="page-number">4</span>
+            <span class="page-number">5</span> -->
+          </div>
+          <button id="nextBtn">></button>
+          <button>>></button>
+        </div>
+      </main>
     </div>
   </body>
 </html>
