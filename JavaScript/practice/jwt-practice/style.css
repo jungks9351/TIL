@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+button {
+  width: 200px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.login-form {
+  width: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.login-form > input {
+  width: 500px;
+  margin-bottom: 10px;
+}
